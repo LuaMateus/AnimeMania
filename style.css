@@ -1,0 +1,167 @@
+:root{
+  --preto: black;
+  --branco :white;
+  --laranja:#e29506;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* HEADER */
+  
+  header{
+    display: flex;
+    align-items: center;
+    background-color:var(--preto);
+    padding: 5vh;
+  }
+  
+.search-nav{
+  margin: 0 auto;
+}
+  .search-1{
+    border-radius: 5px;
+    padding-bottom: 2px;
+  }
+  .search-2{
+    background-color: rgba(255, 255, 255, 0);;
+    border:none;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+  .menu-item{
+    background-color: var(--preto);
+    font-size: 1.2em;
+  }
+  
+  .menu-item a, .menu-item li{
+    background-color:var(--preto);
+    padding: 10px;
+    text-decoration: none;
+  }
+    
+  .item-header a:hover{
+    color: var(--laranja);
+  }
+  
+  .nav-item{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  #titulo-header{
+    color: var(--laranja);
+  }
+
+/*Conteudo Principal*/
+
+body{
+  background-color:var(--laranja);
+}
+main{
+  padding-left: 10em;
+  padding-right: 10em;
+ 
+}
+.artigo-naruto{
+  background-color:var(--branco);
+  padding-left:2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+#titulo-main,.titulo-main-secundario{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.conteudo-secundario{
+  padding-top: 1em;
+  text-align: justify;
+}
+
+.imagem-principal{
+  width: 40%;
+  display:block;
+  margin: auto;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: var(--preto);
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ul1{
+  width: 130px;
+}
+
+.nav1{
+  display: flex;
+}
+
+.nav1 ul{
+  padding: 15px;
+}
+
+.nav2, .nav3{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav2 ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav2 #ul2{
+  padding: 5%;
+}
+
+.nav2 h3, .nav3 h3{
+  display: flex;
+  justify-content: center;
+  color: var(--branco);
+  height: 35px;
+}
+
+
+.logo-footer{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+
+.redes-sociais{
+  display: flex;
+  justify-content: space-around;
+  padding: 23px;
+}
+
+.item-footer a{
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.item-footer{
+  display: flex;
+  justify-content: center;
+  color: var(--branco);
+}
+
+.item-footer a:hover{
+  color: var(--laranja);
+}
+
+#ultima-linha{
+  color:var(--branco);
+
+}
